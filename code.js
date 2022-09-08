@@ -25,7 +25,7 @@ const fechApi = async () => {
 document.addEventListener("DOMContentLoaded", () => {
     fechApi();
     if (localStorage.getItem("cart")){
-        carrito = JSON.parse(localStorage.getItem("cart"));
+        cart = JSON.parse(localStorage.getItem("cart"));
         renderCart();
     }
     
@@ -89,13 +89,13 @@ const setCart = (object) => {
 const renderCart = () => {
     Object.values(cart).forEach((product) => {
         items.innerHTML = "";
-        templateCarrito.querySelector("th").textContent = product.id;
-        templateCarrito.querySelector(".btn-success").dataset.id = product.id;
-        templateCarrito.querySelector(".btn-danger").dataset.id = product.id;
-        templateCarrito.querySelectorAll("td")[1].textContent = product.title;
-        templateCarrito.querySelectorAll("td")[2].textContent = producto.price;
-        templateCarrito.querySelectorAll("td")[3].textContent = product.amount;
-        templateCarrito.querySelectorAll("td")[4].textContent = product.amount * product.price;
+        templateCart.querySelector("th").textContent = product.id;
+        templateCart.querySelector(".btn-success").dataset.id = product.id;
+        templateCart.querySelector(".btn-danger").dataset.id = product.id;
+        templateCart.querySelectorAll("td")[1].textContent = product.title;
+        templateCart.querySelectorAll("td")[2].textContent = product.price;
+        templateCart.querySelectorAll("td")[3].textContent = product.amount;
+        templateCart.querySelectorAll("td")[4].textContent = product.amount * product.price;
         
         const clone = templateCart.cloneNode(true);
         fragment.appendChild(clone)

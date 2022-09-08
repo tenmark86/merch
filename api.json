@@ -13,13 +13,13 @@
     },
     {
         "id": 3,
-        "title": " Real Madrid T-Shirt  ",
+        "title": " Real Madrid T-Shirt",
         "price": "5000",
         "image": "https://assets.adidas.com/images/w_600,f_auto,q_auto/23d0c93d901842379ab8ab4a012819ab_9366/Camiseta_Local_Real_Madrid_20-21_Blanco_FQ7486_01_laydown.jpg"
     },
     {
         "id": 4,
-        "title": " Barcelona T-Shirt ",
+        "title": " Barcelona T-Shirt",
         "price": "6000",
         "image": "https://static.nike.com/a/images/q_auto:eco/t_product_v1/f_auto/dpr_3.0/w_300,c_limit/3712faa8-d7c6-4078-ac06-adff9fe6508d/primera-equipacion-stadium-fc-barcelona-2022-23-camiseta-de-futbol-dri-fit-Hn9LCv.png"
     },
@@ -37,13 +37,13 @@
     },
     {
         "id": 7,
-        "title": " Inter T-Shirt ",
+        "title": " Inter T-Shirt",
         "price": "4000",
         "image": "https://todosobrecamisetas.com/wp-content/uploads/inter-milan-2021-22-nike-home-kit-3.jpg"
     },
     {
         "id": 8,
-        "title": " Milan T-Shirt ",
+        "title": " Milan T-Shirt",
         "price": "8000",
         "image": "https://assets-es.imgfoot.com/media/cache/800x800/milan-ac-home-2016-2017.jpg"
     }
